@@ -27,7 +27,7 @@ config.module.rule('less')
     .tap(options => {
       return {
         ...options,
-        sourceMap: true,
+        sourceMap: false,
       };
     });
 config.module.rule('less')
@@ -35,7 +35,7 @@ config.module.rule('less')
     .tap(options => {
       return {
         ...options,
-        sourceMap: true,
+        sourceMap: false,
       };
     });
 
